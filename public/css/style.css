@@ -19,7 +19,6 @@ body {
   margin: 100px auto;
   padding: 20px;
   border-radius: 35px;
-  
 }
 
 h3 {
@@ -52,28 +51,27 @@ tr {
 }
 .addBtn,
 .edit,
-.delete{
-    text-decoration: none;
-    color: white;
-    background-color: #c4acc3;
-    padding: 1px 4px ;
-    border-radius: 2px;
+.delete {
+  text-decoration: none;
+  color: white;
+  background-color: #c4acc3;
+  padding: 1px 4px;
+  border-radius: 2px;
 }
-button{
+button {
   color: white;
   background-color: #c4acc3;
   border: none;
-  padding: 7px 14px ;
+  padding: 7px 14px;
   border-radius: 2px;
   display: block;
   font-size: 15px;
 }
-.addBtn{
+.addBtn {
   display: block;
   border-radius: 10px;
-
 }
-p{
+p {
   text-align: center;
 }
 form {
@@ -82,9 +80,9 @@ form {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 300px;
+  margin: 0 auto;
 }
-.form-group
-{
+.form-group {
   margin-top: 20px;
   padding: 0px;
   display: flex;
@@ -92,19 +90,20 @@ form {
 }
 
 .form-group label,
-.form-group input
-{
+.form-group input {
   display: block;
 }
 
-
-.alert
-{
+.alert {
   display: block;
   padding: 5px;
-  background-color:#c6a0ba;
+  background-color: #c6a0ba;
   border-radius: 3px;
   height: 30px;
   color: white;
   text-align: center;
+}
+input {
+  height: 25px;
+  font-size: 16px;
 }
